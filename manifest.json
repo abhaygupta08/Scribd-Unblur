@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Scribd Unblur -- Unblur Scribd pages without paying.",
+    "version": "1.0.0",
+    "description": "Chrome extension for revealing Scribd Document pages without subscribing.",
+    "author" : "Abhay Gupta",
+    "icons": { 
+        "16": "./scribd.com/assets/images/logo16.png",
+        "48": "./scribd.com/assets/images/logo48.png",
+        "128": "./scribd.com/assets/images/logo128.png" 
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.scribd.com/*",
+                "http://*.scribd.com/*"
+            ],
+            "js": ["./scribd.com/content.js"]
+        }
+    ],
+    "permissions": ["tabs"],
+    "browser_action": {
+        "default_icon": "./general_logo.png",
+        "default_popup": "./scribd.com/popup/index.html"
+    }
+}
