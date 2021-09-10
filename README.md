@@ -25,7 +25,7 @@ This is a quick demonstration of how this tool works.
     <div align="center"><img src="./config/steps/1.png" alt="step1"/></div></li>
   <li>Unzip that zip file in your folder.</li>
 <li>Then Open Chrome Browser.</li>
-  <li>Paste ```chrome://extensions``` in Url Bar.</li>
+  <li>Paste <code>chrome://extensions</code> in Url Bar.</li>
   <li> Turn On Developer Mode. 👨‍💻
   <div align="center"><img src="./config/steps/2.png" alt="step1"/></div>
   </li>
