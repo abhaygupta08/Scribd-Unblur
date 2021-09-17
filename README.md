@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="./config/banner.png" /> <br/>
 <img src="https://img.shields.io/static/v1?label=tool&message=Chrome%20Extension&color=blueviolet&style=for-the-badge"/>
   <img src="https://img.shields.io/static/v1?label=version&message=1.0.0&color=orange&style=for-the-badge"/>
   <img src="https://img.shields.io/static/v1?label=status&message=working&color=success&style=for-the-badge"/>
